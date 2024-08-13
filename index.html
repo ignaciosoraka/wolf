@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
 
-  <title>wolf</title>
-
+  <title>Wolf - Premium</title>
+  <link rel="shortcut icon" href="./assets/images/CWG-Logo.png" type="image/x-icon">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,9 +24,12 @@
   <link rel="stylesheet" href="assets/css/preguntas.css">
   <link rel="stylesheet" href="assets/css/planes.css">
   <link rel="stylesheet" href="assets/css/infocard.css">
+  <link rel="stylesheet" href="assets/css/reseñas.css">
+
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -60,7 +63,7 @@
               <li><a href="" class="active">Nosotros</a></li>
               <li><a href="">Contacto</a></li>
               <li><a href="faq.html">Preguntas Frecuentes</a></li>
-              <li><a href="">Wolf-Premium</a></li>
+              <li><a href="">Wolf - Premium</a></li>
 
             </ul>
             <a class='menu-trigger'>
@@ -105,17 +108,17 @@
 
   <section class="info-cards-section">
     <div class="info-card">
-        <div class="info-card-content">
-            <img src="assets/images/Trackrecord.png" alt="Icon 1" class="info-card-icon">
-            <p>Conocimientos <strong>básicos requeridos</strong></p>
-            <img src="assets/images/Referidos.png" alt="Icon 3" class="info-card-icon">
-            <p>únete a una<strong>comunidad exclusiva</strong> de +1.000 miembros</p>
-            <img src="assets/images/Referidos.png" alt="Icon 3" class="info-card-icon">
-            <p>Únete a una <strong>comunidad exclusiva</strong> de +1.000 miembros</p>
-        </div>
+      <div class="info-card-content">
+        <img src="assets/images/Trackrecord.png" alt="Icon 1" class="info-card-icon">
+        <p>Conocimientos <strong>básicos requeridos</strong></p>
+        <img src="assets/images/Referidos.png" alt="Icon 3" class="info-card-icon">
+        <p>únete a una<strong>comunidad exclusiva</strong> de +1.000 miembros</p>
+        <img src="assets/images/Referidos.png" alt="Icon 3" class="info-card-icon">
+        <p>Únete a una <strong>comunidad exclusiva</strong> de +1.000 miembros</p>
+      </div>
     </div>
-    
-</section>
+
+  </section>
 
 
 
@@ -235,82 +238,178 @@
   <section class="pricing-section">
     <h1>Nuestros planes</h1>
     <div class="card-container">
-        <!-- Solo Alertas Plan -->
-        <!-- Pro Plan -->
-        <div class="card">
-            <h2>SOLO ALERTAS</h2>
-            <p class="price"><span class="currency">U$D</span> 50<span class="month">/mes</span></p>
-            <p class="date">Comienza hoy, finaliza en 30 días</p>
-            <p class="benefits-title">Principales beneficios:</p>
-            <ul class="benefits-list">
-                <li><strong>Planes de trading.</strong></li>
-                <li style="margin-left: 10px;">Diversas temporalidades, con información detallada.</li>
-                <li>Entre <strong>15 y 30 alertas mensuales.</strong></li>
-                <li style="margin-left: 10px;"><strong>Actualizaciones diarias</strong> del estado del mercado y de
-                    las inversiones realizadas.</li>
-            </ul>
-            <p class="requirement">
-                Se requiere Telegram
-                <a href="#" class="button-link">
-                    <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button" class="subscribe-img">
-                </a>
-            </p>
-        </div>
+      <!-- Solo Alertas Plan -->
+      <!-- Pro Plan -->
+      <div class="card">
+        <h2>SOLO ALERTAS</h2>
+        <p class="price"><span class="currency">U$D</span> 50<span class="month">/mes</span></p>
+        <p class="date">Comienza hoy, finaliza en 30 días</p>
+        <p class="benefits-title">Principales beneficios:</p>
+        <ul class="benefits-list">
+          <li><strong>Planes de trading.</strong></li>
+          <li style="margin-left: 10px;">Diversas temporalidades, con información detallada.</li>
+          <li>Entre <strong>15 y 30 alertas mensuales.</strong></li>
+          <li style="margin-left: 10px;"><strong>Actualizaciones diarias</strong> del estado del mercado y de
+            las inversiones realizadas.</li>
+        </ul>
+        <p class="requirement">
+          Se requiere Telegram
+          <a href="#" class="button-link">
+            <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button"
+              class="subscribe-img">
+          </a>
+        </p>
+      </div>
 
-        <!-- Pro Plan -->
-        <div class="card">
-            <h2>PRO</h2>
-            <p class="price"><span class="currency">U$D</span> 70<span class="month">/mes</span></p>
-            <p class="date">Comienza hoy, finaliza en 30 días</p>
-            <p class="benefits-title">Todos los beneficios de la básica, más:</p>
-            <ul class="benefits-list">
-                <li><strong>Streaming semanal en vivo.</strong></li>
-                <li style="margin-left: 10px;">Revisamos el mercado juntos y buscamos oportunidades de inversión.
-                </li>
-                <li> <strong>Canales privados</strong> para realizar consultas y compartir ideas libremente.</li>
-                <li>Oportunidades de inversión adicionales a través de los canales privados.</li>
-                <li>Se otorgan los beneficios del <strong class="underlined-strong">nivel 5.</strong></li>
-            </ul>
-            <p class="requirement">
-                Se requiere Discord
-                <a href="#" class="button-link">
-                    <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button" class="subscribe-img">
-                </a>
-            </p>
-        </div>
+      <!-- Pro Plan -->
+      <div class="card">
+        <h2>PRO</h2>
+        <p class="price"><span class="currency">U$D</span> 70<span class="month">/mes</span></p>
+        <p class="date">Comienza hoy, finaliza en 30 días</p>
+        <p class="benefits-title">Todos los beneficios de la básica, más:</p>
+        <ul class="benefits-list">
+          <li><strong>Streaming semanal en vivo.</strong></li>
+          <li style="margin-left: 10px;">Revisamos el mercado juntos y buscamos oportunidades de inversión.
+          </li>
+          <li> <strong>Canales privados</strong> para realizar consultas y compartir ideas libremente.</li>
+          <li>Oportunidades de inversión adicionales a través de los canales privados.</li>
+          <li>Se otorgan los beneficios del <strong class="underlined-strong">nivel 5.</strong></li>
+        </ul>
+        <p class="requirement">
+          Se requiere Discord
+          <a href="#" class="button-link">
+            <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button"
+              class="subscribe-img">
+          </a>
+        </p>
+      </div>
 
-        <!-- Pro+ Plan -->
-        <div class="card">
-            <h2>PRO+</h2>
-            <p class="price"><span class="currency">U$D</span> 900<span class="month">/x2 meses</span></p>
-            <p class="date">Comienza hoy, finaliza en 60 días</p>
-            <p class="benefits-title">Todos los beneficios de las anteriores, más:</p>
-            <ul class="benefits-list">
-                <li><strong>Asesoramiento personalizado</strong> con uno de nuestros traders profesionales.</li>
-                <li><strong>Análisis avanzados</strong> basados en Análisis Técnico y Fundamental de activos en
-                    concreto.</li>
-                <li><strong>3 cursos completos</strong> en formato PDF para todos los niveles (básico, intermedio y
-                    avanzado).</li>
-                <li>Se otorgan los beneficios del <strong class="underlined-strong">nivel 15.</strong></li>
-            </ul>
-            <p class="requirement">
-                Se requiere Discord
-                <a href="#" class="button-link">
-                    <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button" class="subscribe-img">
-                </a>
-            </p>
-        </div>
+      <!-- Pro+ Plan -->
+      <div class="card">
+        <h2>PRO+</h2>
+        <p class="price"><span class="currency">U$D</span> 900<span class="month">/x2 meses</span></p>
+        <p class="date">Comienza hoy, finaliza en 60 días</p>
+        <p class="benefits-title">Todos los beneficios de las anteriores, más:</p>
+        <ul class="benefits-list">
+          <li><strong>Asesoramiento personalizado</strong> con uno de nuestros traders profesionales.</li>
+          <li><strong>Análisis avanzados</strong> basados en Análisis Técnico y Fundamental de activos en
+            concreto.</li>
+          <li><strong>3 cursos completos</strong> en formato PDF para todos los niveles (básico, intermedio y
+            avanzado).</li>
+          <li>Se otorgan los beneficios del <strong class="underlined-strong">nivel 15.</strong></li>
+        </ul>
+        <p class="requirement">
+          Se requiere Discord
+          <a href="#" class="button-link">
+            <img src="assets/images/Wolf Premium - Nuestros planes - Boton Apagado.png" alt="Subscribe Button"
+              class="subscribe-img">
+          </a>
+        </p>
+      </div>
     </div>
-</section>
-
-<script></script>
+  </section>
 
 
-  <!-- Scripts importantes-->
+  <section class="testimonial-container">
+
+    <div class="testimonial mySwiper">
+      <h3>Reseñas de <br> <strong style="color: #f1c40f;">nuestros miembros</strong></h3>
+      <img src="assets/images/cita.png" alt="" class="image" />
+      <div class="testi-content swiper-wrapper">
+        <div class="slide swiper-slide">
+         
+          <p>
+            "Llevo un tiempo en el VIP de este grupo. 3 cosas para decir: 1- si solo buscas alertas, este grupo es muy
+            rentable. Y algo que por ahí en otros lados no se tiene en cuenta, la gestión de riesgos es impecable. 2- se
+            aprende del método de trading de los traders del grupo. 3- formas una comunidad en la que se charla mucho de
+            estos temas, planteamos ideas, compartimos gráficas, y en la que terminas haciendo amigos. Muy recomendable
+            desde mi punto de vista. No pierden nada con probar y ver los resultados ustedes mismos."
+          </p>
+
+
+
+          <div class="details">
+            <span class="name">HernanC#6422</span>
+            <img src="assets/images/Wolf Premium - TrackRecord - Boton Apagado.png" alt="Discord Button"
+              class="discord-button">
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          
+          <p>
+            "Este grupo ha superado mis expectativas. 1- Las señales son claras y precisas, lo que me ha ayudado a
+            mejorar mi rendimiento. 2- Los análisis diarios son de gran valor, te permiten entender el porqué de cada
+            movimiento y aprender de los expertos. 3- El ambiente es muy positivo, todos compartimos conocimientos y eso
+            te hace sentir parte de algo más grande. No solo he mejorado en trading, sino que también he encontrado
+            amigos con los que compartir esta pasión."
+          </p>
+
+
+
+          <div class="details">
+            <span class="name">Martinie#2285</span>
+            <img src="assets/images/Wolf Premium - TrackRecord - Boton Apagado.png" alt="Discord Button"
+              class="discord-button">
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          
+          <p>
+            "Desde que me uní al VIP, he notado una mejora considerable en mi desempeño. 1- Las estrategias que se
+            comparten son efectivas y fáciles de seguir. 2- La transparencia del equipo es algo que valoro mucho,
+            siempre explican las razones detrás de cada alerta. 3- El soporte es increíble, siempre hay alguien
+            dispuesto a resolver dudas o dar consejos. Recomiendo este grupo a cualquiera que quiera aprender y mejorar
+            en el mundo del trading."
+          </p>
+
+
+
+          <div class="details">
+            <span class="name">JuanrTe#6321</span>
+            <img src="assets/images/Wolf Premium - TrackRecord - Boton Apagado.png" alt="Discord Button"
+              class="discord-button">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Enlace al JavaScript de Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Inicialización de Swiper -->
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+
+
+
+
+
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/faq.js"></script>
+  <script src="assets/js/carousel.js"></script>
+
   <!-- Bootstrap core JavaScript -->
 
 
